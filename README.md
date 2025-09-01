@@ -39,12 +39,13 @@ graph TD
   Docker --> DB[Databases]
   Docker --> Tunnel[Cloudflare Tunnel]
 
-  VMs --> UbuntuMain["Ubuntu (Main Workstation)"]
-  VMs --> UbuntuServer["Ubuntu Server (ntfy)"]
-  VMs --> UbuntuDesktop["Ubuntu Desktop (Testing)"]
-  VMs --> Windows["Windows VM"]
-  VMs --> HA["Home Assistant"]
-  VMs --> TrueNAS["TrueNAS (10x18TB RAIDZ2 via LSI 9300-8e)"]
+  VMs --> UbuntuMain[Ubuntu Main Workstation]
+  VMs --> UbuntuServer[Ubuntu Server ntfy]
+  VMs --> UbuntuDesktop[Ubuntu Desktop Testing]
+  VMs --> Windows[Windows VM]
+  VMs --> HA[Home Assistant]
+  VMs --> TrueNAS[TrueNAS 10x18TB RAIDZ2 via LSI 9300-8e]
+
 
 
 ---
