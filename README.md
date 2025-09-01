@@ -46,7 +46,7 @@ graph TD
   VMs --> HA[Home Assistant]
   VMs --> TrueNAS[TrueNAS 10x18TB RAIDZ2 via LSI 9300-8e]
 
-
+``````
 
 ---
 
