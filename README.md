@@ -26,22 +26,22 @@ It serves as a personal lab environment where I deploy services, experiment with
 ## 🔹 Architecture Overview
 
 ```mermaid
-graph TD
-  Internet --> Router[Router]
-  Router --> Switch[Gigabit Switch]
-  Switch --> Unraid[Unraid Server]
-
-  Unraid --> Docker[Docker Containers]
-  Unraid --> VMs[Virtual Machines]
-  Unraid --> Shares[Network Shares]
-
-  Docker --> Nextcloud[Nextcloud]
-  Docker --> DB[Databases]
-  Docker --> Tunnel[Cloudflare Tunnel]
-
-  VMs --> UbuntuMain["Ubuntu (Main Workstation)"]
-  VMs --> UbuntuServer["Ubuntu Server (ntfy)"]
-  VMs --> UbuntuDesktop["Ubuntu Desktop (Testing)"]
-  VMs --> Windows["Windows VM"]
-  VMs --> HA["Home Assistant"]
-  VMs --> TrueNAS["TrueNAS (10x18TB RAIDZ2 via LSI 9300-8e)"]
+Internet
+   |
+ Router
+   |
+Gigabit Switch
+   |
+Unraid Server
+  ├─ Docker Containers
+  │   ├─ Nextcloud
+  │   ├─ Databases
+  │   └─ Cloudflare Tunnel
+  ├─ Virtual Machines
+  │   ├─ Ubuntu Main Workstation
+  │   ├─ Ubuntu Server (ntfy)
+  │   ├─ Ubuntu Desktop (Testing)
+  │   ├─ Windows VM
+  │   ├─ Home Assistant
+  │   └─ TrueNAS (10x18TB RAIDZ2)
+  └─ Network Shares
