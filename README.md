@@ -45,3 +45,69 @@ graph TD
   VMs --> Windows["Windows VM"]
   VMs --> HA["Home Assistant"]
   VMs --> TrueNAS["TrueNAS (10x18TB RAIDZ2 via LSI 9300-8e)"]
+
+
+---
+
+## 🔹 Services & Projects
+
+### Docker
+- **Nextcloud**: Self-hosted file cloud and collaboration platform  
+- **Databases**: Backends for applications (Postgres, MariaDB, MongoDB as needed)  
+- **Cloudflare Tunnel**: Secure remote access without port forwarding  
+
+### Virtual Machines
+- **Ubuntu (Main Workstation)**: Daily-use environment  
+- **Ubuntu Server (ntfy)**: Self-hosted push notification service  
+- **Ubuntu Desktop (Testing)**: Sandbox for Linux desktop testing  
+- **Windows VM**: Isolated workloads and software testing  
+- **Home Assistant**: Smart home automation hub  
+- **TrueNAS**: Dedicated storage VM  
+  - 10 × 18 TB Seagate drives with **ZFS RAIDZ2**  
+  - Connected via **LSI 9300-8e SAS HBA** passthrough  
+  - Hosted in **Supermicro CSE-847 36-Bay 4U chassis**  
+
+### Network Shares
+- **Bulk Storage (Unraid)**: 10 × 14 TB WD HDDs on **LSI 6Gbps SAS HBA**  
+- **High-Speed Cache (Unraid)**: 4 × Crucial 4 TB NVMe SSDs  
+- **Enterprise Storage (TrueNAS)**: 10 × 18 TB Seagate drives in ZFS RAIDZ2 (HBA passthrough)  
+
+---
+
+## 🔹 Skills Demonstrated
+
+### Virtualization & Systems
+- VM provisioning and management on Unraid  
+- PCIe/HBA passthrough for near-native performance in VMs  
+- Multi-OS environment (Linux server/desktop, Windows, BSD-based TrueNAS)  
+
+### Containerization
+- Service orchestration with Docker Compose  
+- Application hosting (Nextcloud, databases, tunnels)  
+
+### Storage & Networking
+- **ZFS RAIDZ2**: redundancy, checksumming, and data integrity  
+- Hybrid storage architecture: Unraid + ZFS (bulk + enterprise storage)  
+- Enterprise hardware: dual LSI HBAs, 36-bay chassis, NVMe cache tiering  
+- Network share provisioning (SMB/NFS)  
+
+### Security & Remote Access
+- Cloudflare Tunnel integration for secure service exposure  
+- Isolated workloads in VMs for segmentation  
+
+### Monitoring & Observability
+- Uptime tracking, metrics collection, and dashboards  
+- Notifications with **ntfy** for real-time alerts  
+
+### Automation
+- Infrastructure-as-Code with YAML configs  
+- GitHub for version control of configurations  
+
+---
+
+## 🔹 Goals of This Homelab
+
+- Operate a **production-like environment** for continuous learning  
+- Explore **advanced storage concepts** (ZFS RAIDZ2, NVMe caching, Unraid parity)  
+- Enhance **automation and orchestration** skills (Kubernetes, Ansible in future plans)  
+- Strengthen expertise in **DevOps, SRE, and enterprise storage administration**  
