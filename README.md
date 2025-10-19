@@ -18,22 +18,22 @@ LM Studio Integration: Deployed local Large Language Models on high-performance 
 
 ### Use Cases:
 
-- **Automating system monitoring and log analysis
-- **Generating scripts and command sequences for infrastructure tasks
-- **Natural language interaction with homelab services and dashboards
+- Automating system monitoring and log analysis
+- Generating scripts and command sequences for infrastructure tasks
+- Natural language interaction with homelab services and dashboards
 
 ### AI-Enhanced Automation
 
-- **Task Scheduling & Automation: Combined Celery and LLM-based reasoning to trigger system actions intelligently.
-- **Data Processing Pipelines: Used LLMs for structured/unstructured data analysis from logs, web scraping, and system metrics.
-- **Integration with Existing Services: LLM workflows interact with Docker containers, VMs, and monitoring tools for real-time insights and suggestions.
+- Task Scheduling & Automation: Combined Celery and LLM-based reasoning to trigger system actions intelligently.
+- Data Processing Pipelines: Used LLMs for structured/unstructured data analysis from logs, web scraping, and system metrics.
+- Integration with Existing Services: LLM workflows interact with Docker containers, VMs, and monitoring tools for real-time insights and suggestions.
 
 ### Skills Demonstrated
 
-- **Local LLM deployment and optimization on high-core-count hardware
-- **Python scripting for AI integration with backend services
-- **Automating repetitive infrastructure tasks using intelligent agents=
-- **Experimentation with offline AI inference for secure, low-latency workflows
+- Local LLM deployment and optimization on high-core-count hardware
+- Python scripting for AI integration with backend services
+- Automating repetitive infrastructure tasks using intelligent agents=
+- Experimentation with offline AI inference for secure, low-latency workflows
 ---
 
 ## 🔹 Storage Overview
