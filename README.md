@@ -12,7 +12,6 @@ It serves as a personal lab environment where I deploy services, experiment with
 - **Memory**: 256 GiB DDR4 ECC (Multi-bit)  
 
 ---
-AI & LLM Projects
 ## 🔹 Local LLM Deployment
 
 LM Studio Integration: Deployed local Large Language Models on high-performance AMD Ryzen AI Max+ hardware for personal experiments and automation.
